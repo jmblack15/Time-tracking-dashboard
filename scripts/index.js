@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  const urlData = 'https://raw.githubusercontent.com/jmblack15/FrontEnd-Mentor-Challenges/main/Time-tracking-dashboard/data.json';
+  const urlData = 'https://raw.githubusercontent.com/jmblack15/Time-tracking-dashboard/main/data.json';
   const previusTime = document.querySelectorAll('.previus-time');
   const currentTIme = document.querySelectorAll('.current-time');
 
