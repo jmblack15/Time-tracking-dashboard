@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1000px)">
+</head>
+
+<body>
+  <main>
+    <section class="card profile">
+      <div class="profile--avatar">
+        <img src="./images/image-jeremy.png" alt="Image-jeremy">
+        <div class="profile--avatar-information">
+          <span>Report for</span>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <div class="profile--times">
+        <ul>
+          <li data-period="daily" class="buttons">Daily</li>
+          <li data-period="weekly" class="buttons">Weekly</li>
+          <li data-period="monthly" class="buttons">Monthly</li>
+        </ul>
+      </div>
+    </section>
+    <section class="grid-card">
+      <div class="card card--work">
+        <div class="card--container">
+          <div class="card--container--time">
+            <h3>Work</h3>
+            <img src="./images/icon-ellipsis.svg" alt="">
+            <span data-activity="Work" class="current-time">0hrs</span>
+            <span data-activity="Work" class="previus-time">Previus - 0hrs</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card--play">
+        <div class="card--container">
+          <div class="card--container--time">
+            <h3>Play</h3>
+            <img src="./images/icon-ellipsis.svg" alt="">
+            <span data-activity="Play" class="current-time">0hrs</span>
+            <span data-activity="Play" class="previus-time">Previus - 0hrs</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card--study">
+        <div class="card--container">
+          <div class="card--container--time">
+            <h3>Study</h3>
+            <img src="./images/icon-ellipsis.svg" alt="">
+            <span data-activity="Study" class="current-time">0hrs</span>
+            <span data-activity="Study" class="previus-time">Previus - 0hrs</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card--exercise">
+        <div class="card--container">
+          <div class="card--container--time">
+            <h3>Exercise</h3>
+            <img src="./images/icon-ellipsis.svg" alt="">
+            <span data-activity="Exercise" class="current-time">0hrs</span>
+            <span data-activity="Exercise" class="previus-time">Previus - 0hrs</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card--social">
+        <div class="card--container">
+          <div class="card--container--time">
+            <h3>Social</h3>
+            <img src="./images/icon-ellipsis.svg" alt="">
+            <span data-activity="Social" class="current-time">0hrs</span>
+            <span data-activity="Social" class="previus-time">Previus - 0hrs</span>
+          </div>
+        </div>
+      </div>
+      <div class="card card--self">
+        <div class="card--container">
+          <div class="card--container--time">
+            <h3>Self Care</h3>
+            <img src="./images/icon-ellipsis.svg" alt="">
+            <span data-activity="Self Care" class="current-time">0hrs</span>
+            <span data-activity="Self Care" class="previus-time">Previus - 0hrs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="/scripts/index.js" type="module"></script>
+</body>
+
+</html>

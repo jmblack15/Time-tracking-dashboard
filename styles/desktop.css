@@ -1,0 +1,82 @@
+body {
+  height: 100vh;
+}
+
+main {
+  width          : 1000px;
+  height         : 600px;
+  display        : flex;
+  justify-content: space-between;
+}
+
+.card {
+  height       : 100%;
+  border-radius: 15px;
+}
+
+.card--container {
+  height: 85%;
+  top   : 15%;
+}
+
+.card--container--time {
+  width             : 100%;
+  margin            : 10px;
+  grid-template-rows: repeat(3, 1fr);
+  gap               : 0;
+}
+
+.card--container--time .current-time {
+  grid-column: 1/3;
+  font-size  : 54px;
+}
+
+.card--container--time .previus-time {
+  grid-column: 1/3;
+}
+
+.profile {
+  width       : 30%;
+  margin-right: 30px;
+}
+
+.profile--avatar {
+  padding        : 50px;
+  flex-direction : column;
+  align-items    : flex-start;
+  justify-content: flex-start;
+}
+
+.profile--avatar img {
+  width        : 100px;
+  height       : 100px;
+  margin-bottom: 50px;
+}
+
+.profile--avatar-information span {
+  font-size: 16px;
+}
+
+.profile--avatar-information h2 {
+  font-size: 34px;
+}
+
+.profile--times {
+  place-content: unset;
+  padding      : 30px;
+}
+
+.profile--times ul {
+  grid-auto-flow: row;
+  gap           : 0;
+  align-items   : center;
+}
+
+.grid-card {
+  width                : 70%;
+  display              : grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows   : 1fr 1fr;
+  gap                  : 30px;
+  margin-top           : 0;
+}
