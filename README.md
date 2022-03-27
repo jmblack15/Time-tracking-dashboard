@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL: ](https://github.com/jmblack15/FrontEnd-Mentor-Challenges/tree/main/Time-tracking-dashboard)
+- [Solution URL: ](https://github.com/jmblack15/Time-tracking-dashboard)
 - [Live Site URL: ](https://time-tracking-dashboard-jmblack15.vercel.app/)
 
 ## My process
